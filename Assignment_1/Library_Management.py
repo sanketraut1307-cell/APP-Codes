@@ -71,3 +71,29 @@ while True:
         break
     else:
         print("Invalid Choice")
+
+#Output - 
+----- Library Menu -----
+1. Add Book
+2. Register Patron
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice: 1
+Enter book name: Python
+Book added.
+
+Enter your choice: 2
+Enter patron name: Sanket
+Patron registered.
+
+Enter your choice: 3
+Enter book name: Python
+Book borrowed.
+
+Enter your choice: 4
+Enter book name: Python
+Book returned.
+
+Enter your choice: 5
+Thank You!
