@@ -1,0 +1,27 @@
+#**First Program - 
+def numbers():
+    yield 1
+    yield 2
+    yield 3
+
+# Using the generator
+for i in numbers():
+    print(i)
+
+#Output - 
+#1
+#2
+#3
+
+
+#**Second Program - 
+def countdown(n):
+    while n > 0:
+    yield n
+    n -= 1
+# Using the generator
+for num in countdown(5):
+    print(num)
+
+#Output - 
+5, 4, 3, 2, 1
