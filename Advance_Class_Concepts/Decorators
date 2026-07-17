@@ -13,3 +13,9 @@ def greet():
 
 # Calling the function
 greet()
+
+
+#Output - 
+Before function
+Hello!
+After function
