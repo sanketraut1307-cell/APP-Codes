@@ -38,3 +38,8 @@ if pizza:
     pizza.prepare()
 else:
     print("Pizza not available")
+
+
+#Output - 
+#Enter pizza type: Pepperoni
+#Preparing Pepperoni Pizza
