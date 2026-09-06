@@ -22,8 +22,8 @@ def fib_table(num):
     table = [0] * (num + 1)
     table[1] = 1
 
-    for index in range(2, num + 1):
-        table[index] = table[index - 1] + table[index - 2]
+    for i in range(2, num + 1):
+        table[i] = table[i - 1] + table[i - 2]
 
     return table[num]
 
